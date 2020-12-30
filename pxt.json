@@ -1,5 +1,5 @@
 {
-    "name": "syrup-spray",
+    "name": "syrup spray ",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -7,9 +7,7 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md",
-        "tilemap.g.jres",
-        "tilemap.g.ts"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
