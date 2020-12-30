@@ -5,20 +5,22 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 let projectile: Sprite = null
 let mySprite: Sprite = null
 scene.setBackgroundColor(10)
+game.splash("syrup spray ")
+game.splash("by pancake and syrup")
 mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
-    . . . . . 8 8 8 . . . . . . . . 
-    . . . . . 8 9 8 . . . . . . . . 
-    . . . . . 8 9 8 . . . . . . . . 
-    . . . . 8 8 9 8 8 . . . . . . . 
-    . . . 8 f f f f f 8 . . . . . . 
-    . . . 8 1 9 1 9 1 8 . . . . . . 
-    . . . 8 f f f f f 8 . . . . . . 
-    f . . 8 e e e e e 8 . . . f . . 
-    . f f 8 e e f f e 8 f f f . . . 
-    f . . 8 e e e e e 8 . . . f . . 
-    . . . 8 f f f f f 8 . . . . . . 
-    . . . 8 8 8 8 8 8 8 . . . . . . 
+    . . . . . f f f . . . . . . . . 
+    . . . . . f e f . . . . . . . . 
+    . . . . . f e f . . . . . . . . 
+    . . . . f f e f f . . . . . . . 
+    . . . f f f f f f f . . . . . . 
+    . . . f e e e e e f . . . . . . 
+    . . . f e f e e f f . . . . . . 
+    f . . f e e e e e f . . . f . . 
+    . f f f e e f f e f f f f . . . 
+    f . . f e e e e e f . . . f . . 
+    . . . f e e e e e f . . . . . . 
+    . . . f f f f f f f . . . . . . 
     . . . . . f . . f . . . . . . . 
     . . . . . f . . f . . . . . . . 
     . . . . f f . . f f . . . . . . 
